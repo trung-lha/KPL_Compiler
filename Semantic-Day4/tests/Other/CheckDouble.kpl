@@ -1,0 +1,6 @@
+program CheckDouble; (*Check double*)
+var x : double;
+
+begin
+    x := 5.5;
+end.

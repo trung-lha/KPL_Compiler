@@ -1,0 +1,20 @@
+program exam;
+var n: integer;
+
+begin
+    n := readi;
+    switch n;
+    begin
+        case 10: call writec('A');
+            break;
+        case 8: call writec('B');
+            break;
+        case 6: call writec('C');
+            break;
+        case 4: call writec('D');
+            break;
+        default:
+            call writec('F');
+            break;
+    end;
+end.

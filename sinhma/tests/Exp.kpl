@@ -1,0 +1,17 @@
+program exp;
+
+var n : integer;
+    kq : integer;
+
+Function EXP(n : integer) : integer;
+    begin
+        if n = 0 then EXP := 1;
+        if n > 0 then EXP := 2*EXP(n-1);
+    end;
+    
+
+begin
+    n := readi;
+    kq := EXP(n);
+    call writei(kq);
+end.

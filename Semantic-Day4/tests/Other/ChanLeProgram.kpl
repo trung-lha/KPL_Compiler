@@ -1,0 +1,27 @@
+program ChanLe;
+
+var n : integer;
+    i : integer;
+
+procedure inDay(n : integer);
+begin
+    while n != 0 do 
+    begin
+        if n / 2 = 0 then 
+            begin 
+            call writei(n / 2);
+            call writec(' ');
+            end
+        else 
+            begin
+            call writei(n*3 + 1);
+            call writec(' ');
+            end;
+        n := n - 1;
+    end;
+end;
+
+begin
+    n := readi;
+    call inDay(n);
+end.

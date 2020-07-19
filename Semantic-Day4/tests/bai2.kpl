@@ -1,0 +1,13 @@
+program bai2;
+const con = -.678;
+var x : integer;
+    n : integer;
+    s : String;
+    c : char;
+
+begin 
+    n := 5+2**(5*3);
+    x := 2*n**n**2**2*(2+5);
+    x := 2*n**(2+4);
+    x := 2*3**n;
+end.

@@ -1,0 +1,8 @@
+program TestSum;
+
+var i : integer;
+
+begin 
+    i := sum 5.5, 7, 8;
+
+end.

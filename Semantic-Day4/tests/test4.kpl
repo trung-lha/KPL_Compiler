@@ -1,0 +1,8 @@
+program exam;
+const y = -.678;
+var x: integer;
+
+begin
+    x := -2;
+    x := -2**(2+3)
+end.
